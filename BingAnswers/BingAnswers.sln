@@ -1,0 +1,25 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 11.00
+# Visual Studio 2010
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "BingAnswers", "BingAnswers\BingAnswers.csproj", "{4E7ECA04-9402-42A4-AD1C-C727F832AD8F}"
+EndProject
+Project("{CC5FD16D-436D-48AD-A40C-5A424C6E3E79}") = "BingAnswers.Azure", "BingAnswers.Azure\BingAnswers.Azure.ccproj", "{148B69F9-C7BB-4846-93CB-0C43C99E169E}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{4E7ECA04-9402-42A4-AD1C-C727F832AD8F}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{4E7ECA04-9402-42A4-AD1C-C727F832AD8F}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{4E7ECA04-9402-42A4-AD1C-C727F832AD8F}.Release|Any CPU.ActiveCfg = Release|x64
+		{4E7ECA04-9402-42A4-AD1C-C727F832AD8F}.Release|Any CPU.Build.0 = Release|x64
+		{148B69F9-C7BB-4846-93CB-0C43C99E169E}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{148B69F9-C7BB-4846-93CB-0C43C99E169E}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{148B69F9-C7BB-4846-93CB-0C43C99E169E}.Release|Any CPU.ActiveCfg = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+EndGlobal

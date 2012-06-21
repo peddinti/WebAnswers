@@ -1,0 +1,20 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <PropertyGroup>
+    <AzureCredentials>Azpad0190YF1745</AzureCredentials>
+    <AzureHostedServiceName>webanswers</AzureHostedServiceName>
+    <AzureHostedServiceLabel>WebAnswers</AzureHostedServiceLabel>
+    <AzureSlot>Production</AzureSlot>
+    <AzureEnableIntelliTrace>True</AzureEnableIntelliTrace>
+    <AzureEnableProfiling>False</AzureEnableProfiling>
+    <AzureEnableWebDeploy>True</AzureEnableWebDeploy>
+    <AzureStorageAccountName>webanswers</AzureStorageAccountName>
+    <AzureStorageAccountLabel>WebAnswers</AzureStorageAccountLabel>
+    <AzureDeploymentLabel>BingAnswers.Azure</AzureDeploymentLabel>
+    <AzureSolutionConfiguration>Release</AzureSolutionConfiguration>
+    <AzureServiceConfiguration>Cloud</AzureServiceConfiguration>
+    <AzureAppendTimestampToDeploymentLabel>True</AzureAppendTimestampToDeploymentLabel>
+    <AzureAllowUpgrade>True</AzureAllowUpgrade>
+    <AzureEnableRemoteDesktop>True</AzureEnableRemoteDesktop>
+  </PropertyGroup>
+</Project>
