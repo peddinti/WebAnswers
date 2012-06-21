@@ -1,0 +1,21 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<RoleModule namespace="IntelliTrace" xmlns="http://schemas.microsoft.com/ServiceHosting/2008/10/ServiceDefinition">
+  <Startup>
+    <Task commandLine="WindowsAzureDiagnosticsStartup.exe" executionContext="elevated" />
+    <Task commandLine="WindowsAzureDiagnosticsAgent.exe" executionContext="elevated" taskType="foreground" />
+  </Startup>
+  <Runtime>
+    <Environment>
+      <Variable name="_AZURE_INTELLITRACE_ENABLED_" value="1" />
+      <Variable name="COR_ENABLE_PROFILING" value="1" />
+      <Variable name="COR_PROFILER" value="{301EC75B-AD5A-459C-A4C4-911C878FA196}" />
+      <Variable name="VSLOGGER_CPLAN" value="%TMP%\IntelliTrace\collectionplan.xml" />
+      <Variable name="__VSLOGGER_CPLAN" value="%TMP%\IntelliTrace\collectionplan.xml" />
+      <Variable name="COR_PROFILER_PATH" value="%RdRoleRoot%\plugins\IntelliTrace\Runtime\64TraceLogProfiler.dll" />
+      <Variable name="VSTS_PROFILER_NOT_CLEAR_ENVVARS" value="1" />
+    </Environment>
+  </Runtime>
+  <ConfigurationSettings>
+    <Setting name="IntelliTraceConnectionString" />
+  </ConfigurationSettings>
+</RoleModule>

@@ -1,0 +1,71 @@
+Microsoft Visual Studio Solution File, Format Version 9.00
+# Visual Studio 2005
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "OpenNLP", "OpenNLP\OpenNLP.csproj", "{B70185DF-81FD-4417-914F-7C90E65E7D9F}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ParseTree", "ParseTree\ParseTree.csproj", "{8B7FEF34-CEC3-4212-9E8C-9D815E04BFAB}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Lithium", "Lithium\Lithium.csproj", "{A4FA73C1-2527-4EF9-ACFE-3072386100DC}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ToolsExample", "ToolsExample\ToolsExample.csproj", "{EFDF4714-3781-4B07-8955-C4AC2A74C89E}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ModelConverter", "ModelConverter\ModelConverter.csproj", "{19A1DDC0-9EE7-46D1-9EA4-3F8D274FAE3F}"
+EndProject
+Global
+	GlobalSection(SourceCodeControl) = preSolution
+		SccNumberOfProjects = 6
+		SccProjectName0 = \u0022$/OpenNLP\u0022,\u0020QTAAAAAA
+		SccLocalPath0 = ..
+		SccProvider0 = MSSCCI:Microsoft\u0020Visual\u0020SourceSafe
+		CanCheckoutShared = false
+		SccProjectFilePathRelativizedFromConnection0 = OpenNLP\\
+		SccProjectUniqueName1 = OpenNLP\\OpenNLP.csproj
+		SccLocalPath1 = ..
+		CanCheckoutShared = false
+		SccProjectFilePathRelativizedFromConnection1 = OpenNLP\\OpenNLP\\
+		SccProjectUniqueName2 = ParseTree\\ParseTree.csproj
+		SccLocalPath2 = ..
+		CanCheckoutShared = false
+		SccProjectFilePathRelativizedFromConnection2 = OpenNLP\\ParseTree\\
+		SccProjectUniqueName3 = Lithium\\Lithium.csproj
+		SccLocalPath3 = ..
+		CanCheckoutShared = false
+		SccProjectFilePathRelativizedFromConnection3 = OpenNLP\\Lithium\\
+		SccProjectUniqueName4 = ToolsExample\\ToolsExample.csproj
+		SccLocalPath4 = ..
+		CanCheckoutShared = false
+		SccProjectFilePathRelativizedFromConnection4 = OpenNLP\\ToolsExample\\
+		SccProjectUniqueName5 = ModelConverter\\ModelConverter.csproj
+		SccLocalPath5 = ..
+		CanCheckoutShared = false
+		SccProjectFilePathRelativizedFromConnection5 = OpenNLP\\ModelConverter\\
+	EndGlobalSection
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{B70185DF-81FD-4417-914F-7C90E65E7D9F}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{B70185DF-81FD-4417-914F-7C90E65E7D9F}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{B70185DF-81FD-4417-914F-7C90E65E7D9F}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{B70185DF-81FD-4417-914F-7C90E65E7D9F}.Release|Any CPU.Build.0 = Release|Any CPU
+		{8B7FEF34-CEC3-4212-9E8C-9D815E04BFAB}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{8B7FEF34-CEC3-4212-9E8C-9D815E04BFAB}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{8B7FEF34-CEC3-4212-9E8C-9D815E04BFAB}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{8B7FEF34-CEC3-4212-9E8C-9D815E04BFAB}.Release|Any CPU.Build.0 = Release|Any CPU
+		{A4FA73C1-2527-4EF9-ACFE-3072386100DC}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{A4FA73C1-2527-4EF9-ACFE-3072386100DC}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{A4FA73C1-2527-4EF9-ACFE-3072386100DC}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{A4FA73C1-2527-4EF9-ACFE-3072386100DC}.Release|Any CPU.Build.0 = Release|Any CPU
+		{EFDF4714-3781-4B07-8955-C4AC2A74C89E}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{EFDF4714-3781-4B07-8955-C4AC2A74C89E}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{EFDF4714-3781-4B07-8955-C4AC2A74C89E}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{EFDF4714-3781-4B07-8955-C4AC2A74C89E}.Release|Any CPU.Build.0 = Release|Any CPU
+		{19A1DDC0-9EE7-46D1-9EA4-3F8D274FAE3F}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{19A1DDC0-9EE7-46D1-9EA4-3F8D274FAE3F}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{19A1DDC0-9EE7-46D1-9EA4-3F8D274FAE3F}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{19A1DDC0-9EE7-46D1-9EA4-3F8D274FAE3F}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+EndGlobal
